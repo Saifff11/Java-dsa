@@ -5,9 +5,9 @@ public class fabonacci{
         int n = sc.nextInt();
         int a = 1;
         int b = 1;
-        System.out.print(a+ " ");
+        System.out.print(a+" ");
         System.out.print(+b);
-        for(int i=3;i<=n;i++){
+        for(int i=3; i<=n; i++){
             int c=a+b;
             System.out.print(" "+c);
             a=b;
