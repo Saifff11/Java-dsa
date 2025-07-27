@@ -38,13 +38,13 @@ class Fish extends Animal {
 
 class Bird extends Animal {
     void fly() {
-        System.out.println("");fly
+        System.out.println("");
     }
 }
 
-// class Dog extends Mammel {
-//     String breed;
-// }
+class Dog extends Mammel {
+    String breed;
+}
 
 //Derived class / sub class
 class Fish extends Animal{

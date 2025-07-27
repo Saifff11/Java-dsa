@@ -19,7 +19,7 @@ public class OptimizedPower {
         int n = 10;
         System.out.println(optimizedPower(x, n));
     }
-    class Ride {
-        private 
-    }
+    // class Ride {
+    //     private 
+    // }
 }
