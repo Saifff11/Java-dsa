@@ -1,5 +1,3 @@
-import java.util.*;
-// public class maxSubarraysum{
 //     public static void maxsubarraysum(int numbers[]){
 //         int currsum = 0;
 //         int maxsum = Integer.MIN_VALUE;
@@ -46,7 +44,7 @@ public class maxSubarraysum{
             for(int j=i;j<numbers.length;j++){
                 int end = j;
 
-                currsum = start == 0? prefix[end];
+                currsum = (start == 0) ? prefix[end] : (prefix[end] - prefix[start - 1]);
             }
         }
     }

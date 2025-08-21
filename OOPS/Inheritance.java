@@ -24,15 +24,17 @@ class Animal{
 }
 
 class Mammel extends Animal {
-    //int legs;
+    int legs;
     void walk() {
         System.out.println("walks");
     }
 }
 
 class Fish extends Animal {
-    void walk() {
-        System.out.println("walks");
+    int fins;
+
+    void swim() {
+        System.out.println("swims in water");
     }
 }
 
@@ -44,13 +46,4 @@ class Bird extends Animal {
 
 class Dog extends Mammel {
     String breed;
-}
-
-//Derived class / sub class
-class Fish extends Animal{
-    int fins;
-
-    void swim() {
-        System.out.println("swims in water");
-    }
 }
